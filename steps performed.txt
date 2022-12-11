@@ -1,0 +1,56 @@
+*   18ec818 (HEAD -> master) Merge branch 'change6'
+|\
+| * 3a7bf4c (change6) add watermelon,guava
+| | *   0ca26ed (refs/stash) On master: add watermelon,papaya
+| | |\
+| |/ /
+|/| |
+| | * db1d4f0 index on master: bc5ec9d remove Guava
+| |/
+|/|
+* | bc5ec9d remove Guava
+* | e302438 second line added in file2
+* |   5a4fd03 merge conflict in file2
+|\ \
+| * | 83c99bd change file2 in change 3
+* | | c37bdb2 change file2 in change 4
+|/ /
+* | 669a2dc change1 end list
+|/
+* 11cdd26 change1 added list
+* ffba263 add file
+
+
+1-->Create two files->file1,file2 in master branch
+2-->add content in file1 and then comitted in master branch
+3-->create change1 branch and make changes in file1 at beginning
+alias graph="git log --all --decorate --oneline --graph"
+
+
+*   5f3461f (HEAD -> master) Merge branch 'change9'
+|\
+| * bfdf68d (change9) add guava
+* |   18ec818 Merge branch 'change6'
+|\ \
+| * | 3a7bf4c (change6) add watermelon,guava
+| | | *   0ca26ed (refs/stash) On master: add watermelon,papaya
+| | | |\
+| |_|/ /
+|/| | /
+| | |/
+| | * db1d4f0 index on master: bc5ec9d remove Guava
+| |/
+|/|
+* | bc5ec9d (change7) remove Guava
+* | e302438 second line added in file2
+* |   5a4fd03 merge conflict in file2
+|\ \
+| * | 83c99bd change file2 in change 3
+* | | c37bdb2 change file2 in change 4
+|/ /
+* | 669a2dc (change8) change1 end list
+|/
+* 11cdd26 change1 added list
+* ffba263 add file
+
+
